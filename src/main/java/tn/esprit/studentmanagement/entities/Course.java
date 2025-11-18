@@ -23,4 +23,6 @@ public class Course {
     @OneToMany(mappedBy = "course")
     private List<Enrollment> enrollments;
 
+
+    
 }
