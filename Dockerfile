@@ -44,6 +44,8 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 # exposes port 8080, and specifies the command to run the application using the java -jar command.
 # The application JAR file is assumed to be located in the target directory after building the project.
 # The Dockerfile is designed to create a lightweight container for running Java applications efficiently.
+# The use of Eclipse Temurin ensures that the container has a reliable and up-to-date Java runtime environment.
+# The Dockerfile is structured to facilitate easy deployment of Java applications in a containerized environment.
 
 
 
