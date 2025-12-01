@@ -1,15 +1,15 @@
 package tn.esprit.studentmanagement.services;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tn.esprit.studentmanagement.repositories.EnrollmentRepository;
 import tn.esprit.studentmanagement.entities.Enrollment;
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class EnrollmentService implements IEnrollment {
-    @Autowired
-    EnrollmentRepository enrollmentRepository;
+    private final EnrollmentRepository enrollmentRepository;
 
     @Override
     public List<Enrollment> getAllEnrollments() {
