@@ -1,6 +1,7 @@
 tn/esprit/studentmanagement/controllers/DepartmentController.class
 tn/esprit/studentmanagement/entities/Enrollment.class
 tn/esprit/studentmanagement/repositories/StudentRepository.class
+tn/esprit/studentmanagement/services/ICourseService.class
 tn/esprit/studentmanagement/controllers/StudentController.class
 tn/esprit/studentmanagement/services/IEnrollment.class
 tn/esprit/studentmanagement/controllers/EnrollmentController.class
@@ -11,6 +12,7 @@ tn/esprit/studentmanagement/entities/Course.class
 tn/esprit/studentmanagement/repositories/CourseRepository.class
 tn/esprit/studentmanagement/entities/Status.class
 tn/esprit/studentmanagement/services/IDepartmentService.class
+tn/esprit/studentmanagement/services/CourseService.class
 tn/esprit/studentmanagement/entities/Department.class
 tn/esprit/studentmanagement/repositories/DepartmentRepository.class
 tn/esprit/studentmanagement/services/StudentService.class

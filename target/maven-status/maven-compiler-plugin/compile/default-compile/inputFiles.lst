@@ -11,8 +11,10 @@
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/repositories/DepartmentRepository.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/repositories/EnrollmentRepository.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/repositories/StudentRepository.java
+/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/CourseService.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/DepartmentService.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/EnrollmentService.java
+/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/ICourseService.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/IDepartmentService.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/IEnrollment.java
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/main/java/tn/esprit/studentmanagement/services/IStudentService.java

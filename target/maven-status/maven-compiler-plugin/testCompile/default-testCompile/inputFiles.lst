@@ -1,1 +1,5 @@
 /home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/test/java/tn/esprit/studentmanagement/StudentManagementApplicationTests.java
+/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/test/java/tn/esprit/studentmanagement/integration/CourseIntegrationTest.java
+/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/test/java/tn/esprit/studentmanagement/integration/DepartmentIntegrationTest.java
+/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/test/java/tn/esprit/studentmanagement/integration/EnrollmentIntegrationTest.java
+/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_/src/test/java/tn/esprit/studentmanagement/integration/StudentIntegrationTest.java
