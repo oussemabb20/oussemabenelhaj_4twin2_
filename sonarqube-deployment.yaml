@@ -2,30 +2,33 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: sonarqube-data-pvc
+  namespace: devops
 spec:
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
       storage: 2Gi
+  storageClassName: standard
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: sonarqube-extensions-pvc
+  namespace: devops
 spec:
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
       storage: 1Gi
+  storageClassName: standard
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sonarqube
-  labels:
-    app: sonarqube
+  namespace: devops
 spec:
   replicas: 1
   selector:
@@ -51,11 +54,11 @@ spec:
               mountPath: /opt/sonarqube/extensions
           resources:
             requests:
-              memory: "1Gi"
+              memory: "2Gi"
               cpu: "500m"
             limits:
-              memory: "2Gi"
-              cpu: "1000m"
+              memory: "4Gi"
+              cpu: "1"
       volumes:
         - name: sonarqube-data
           persistentVolumeClaim:
@@ -68,6 +71,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: sonarqube-service
+  namespace: devops
 spec:
   type: NodePort
   selector:
