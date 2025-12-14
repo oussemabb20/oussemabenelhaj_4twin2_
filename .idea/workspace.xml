@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c772797b-c3e8-4008-9c56-16ece6350bef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Enrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="c772797b-c3e8-4008-9c56-16ece6350bef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +215,7 @@
       <workItem from="1765672291436" duration="31000" />
       <workItem from="1765706936861" duration="4000" />
       <workItem from="1765717279440" duration="20000" />
-      <workItem from="1765736663509" duration="958000" />
+      <workItem from="1765736663509" duration="1541000" />
     </task>
     <servers />
   </component>
