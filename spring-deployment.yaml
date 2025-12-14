@@ -31,16 +31,18 @@ spec:
       labels:
         app: spring-app
     spec:
-      containers:
-        - name: spring-app
-          image: oussemabh1/oussemabenelhaj_4twin2:latest
-          ports:
-            - containerPort: 8089
-          envFrom:
-            - configMapRef:
-                name: spring-config
-            - secretRef:
-                name: spring-secret
+     containers:
+      - name: spring-app
+        image: oussemabh1/oussemabenelhaj_4twin2:build-68
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 8080
+        envFrom:
+          - configMapRef:
+              name: spring-config
+          - secretRef:
+              name: spring-secret
+
 ---
 apiVersion: v1
 kind: Service
