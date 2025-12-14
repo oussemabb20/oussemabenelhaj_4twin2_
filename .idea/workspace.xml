@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c772797b-c3e8-4008-9c56-16ece6350bef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Enrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/entities/Student.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35q3lJnPK4e9lhf6kspQgNmf9xh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CourseIntegrationTest.getAllCourses_ShouldReturnSavedCourses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseIntegrationTest.getCourseById_ShouldReturnCorrectCourse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseIntegrationTest.saveCourse_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DepartmentIntegrationTest.getAllDepartments_ShouldReturnSavedDepartments.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DepartmentIntegrationTest.getDepartmentById_ShouldReturnCorrectDepartment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DepartmentIntegrationTest.saveDepartment_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DepartmentServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnrollmentIntegrationTest.getAllEnrollments_ShouldReturnSavedEnrollments.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnrollmentIntegrationTest.getEnrollmentById_ShouldReturnCorrectEnrollment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnrollmentIntegrationTest.saveEnrollment_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentIntegrationTest.getAllStudents_ShouldReturnSavedStudents.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentIntegrationTest.getStudentById_ShouldReturnCorrectStudent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentIntegrationTest.saveStudent_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.student-management [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.StudentManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/oussemabelhaj/4twin/oussemabenelhaj_4twin2_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StudentManagementApplication">
+    <configuration name="DepartmentIntegrationTest.getAllDepartments_ShouldReturnSavedDepartments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.studentmanagement.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.studentmanagement.integration" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.studentmanagement.integration.DepartmentIntegrationTest" />
+      <option name="METHOD_NAME" value="getAllDepartments_ShouldReturnSavedDepartments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentIntegrationTest.getDepartmentById_ShouldReturnCorrectDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.studentmanagement.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.studentmanagement.integration" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.studentmanagement.integration.DepartmentIntegrationTest" />
+      <option name="METHOD_NAME" value="getDepartmentById_ShouldReturnCorrectDepartment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentIntegrationTest.getAllStudents_ShouldReturnSavedStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.studentmanagement.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.studentmanagement.integration" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.studentmanagement.integration.StudentIntegrationTest" />
+      <option name="METHOD_NAME" value="getAllStudents_ShouldReturnSavedStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentIntegrationTest.getStudentById_ShouldReturnCorrectStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.studentmanagement.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.studentmanagement.integration" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.studentmanagement.integration.StudentIntegrationTest" />
+      <option name="METHOD_NAME" value="getStudentById_ShouldReturnCorrectStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentIntegrationTest.saveStudent_ShouldPersistInDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.studentmanagement.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.studentmanagement.integration" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.studentmanagement.integration.StudentIntegrationTest" />
+      <option name="METHOD_NAME" value="saveStudent_ShouldPersistInDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="student-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.studentmanagement.StudentManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentIntegrationTest.getStudentById_ShouldReturnCorrectStudent" />
+        <item itemvalue="JUnit.StudentIntegrationTest.getAllStudents_ShouldReturnSavedStudents" />
+        <item itemvalue="JUnit.StudentIntegrationTest.saveStudent_ShouldPersistInDatabase" />
+        <item itemvalue="JUnit.DepartmentIntegrationTest.getDepartmentById_ShouldReturnCorrectDepartment" />
+        <item itemvalue="JUnit.DepartmentIntegrationTest.getAllDepartments_ShouldReturnSavedDepartments" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c772797b-c3e8-4008-9c56-16ece6350bef" name="Changes" comment="" />
+      <created>1763823923140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763823923140</updated>
+      <workItem from="1763823924278" duration="3527000" />
+      <workItem from="1763830849415" duration="4787000" />
+      <workItem from="1764048947489" duration="5068000" />
+      <workItem from="1764232536071" duration="17000" />
+      <workItem from="1764621248210" duration="1800000" />
+      <workItem from="1764623271506" duration="1000" />
+      <workItem from="1764623293731" duration="1440000" />
+      <workItem from="1764662706045" duration="6078000" />
+      <workItem from="1764780048954" duration="19000" />
+      <workItem from="1765123463877" duration="2605000" />
+      <workItem from="1765190475926" duration="1414000" />
+      <workItem from="1765199780613" duration="55000" />
+      <workItem from="1765205702441" duration="1615000" />
+      <workItem from="1765229447757" duration="4282000" />
+      <workItem from="1765272261289" duration="1922000" />
+      <workItem from="1765278141313" duration="620000" />
+      <workItem from="1765393722364" duration="1094000" />
+      <workItem from="1765471760162" duration="9184000" />
+      <workItem from="1765529271432" duration="611000" />
+      <workItem from="1765662704604" duration="2340000" />
+      <workItem from="1765672291436" duration="31000" />
+      <workItem from="1765706936861" duration="4000" />
+      <workItem from="1765717279440" duration="20000" />
+      <workItem from="1765736663509" duration="958000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tn/esprit/studentmanagement/integration/CourseIntegrationTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tn/esprit/studentmanagement/integration/EnrollmentIntegrationTest.java</url>
+          <line>42</line>
+          <properties class="tn.esprit.studentmanagement.integration.EnrollmentIntegrationTest" method="getAllEnrollments_ShouldReturnSavedEnrollments">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tn/esprit/studentmanagement/integration/DepartmentIntegrationTest.java</url>
+          <line>40</line>
+          <properties class="tn.esprit.studentmanagement.integration.DepartmentIntegrationTest" method="getAllDepartments_ShouldReturnSavedDepartments">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

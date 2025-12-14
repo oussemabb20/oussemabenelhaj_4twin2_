@@ -1,8 +1,43 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Build output
+target/
+!target/*.jar
+
+# IDE files
+.idea
+.vscode
+.settings
+.classpath
+.project
+*.iml
+*.iws
+*.ipr
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Maven
+.mvn
+mvnw
+mvnw.cmd
+
+# Documentation
+README.md
+*.md
+HELP.md
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+src/test/
+
+# CI/CD
+Jenkinsfile
+*.yaml
+*.yml
