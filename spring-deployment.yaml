@@ -1,3 +1,6 @@
+# ----------------------------
+# ConfigMap pour Spring Boot
+# ----------------------------
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -5,7 +8,11 @@ metadata:
   namespace: devops
 data:
   SPRING_DATASOURCE_URL: jdbc:mysql://mysql-service:3306/springdb?createDatabaseIfNotExist=true
+  # Ajoutez d'autres variables si nécessaire
 ---
+# ----------------------------
+# Secret pour Spring Boot
+# ----------------------------
 apiVersion: v1
 kind: Secret
 metadata:
@@ -13,9 +20,12 @@ metadata:
   namespace: devops
 type: Opaque
 data:
-  SPRING_DATASOURCE_USERNAME: cm9vdA==
-  SPRING_DATASOURCE_PASSWORD: cm9vdDEyMw==
+  SPRING_DATASOURCE_USERNAME: cm9vdA==       # root
+  SPRING_DATASOURCE_PASSWORD: cm9vdDEyMw==   # root123
 ---
+# ----------------------------
+# Deployment Spring Boot
+# ----------------------------
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -35,16 +45,19 @@ spec:
     spec:
       containers:
         - name: spring-app
-          image: oussemabh1/oussemabenelhaj_4twin2:build-65  # 🔥 CHANGED from build-68 to build-65
+          image: oussemabh1/oussemabenelhaj_4twin2:build-65
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8089         # corrigé pour match Spring Boot
           envFrom:
             - configMapRef:
                 name: spring-config
             - secretRef:
                 name: spring-secret
 ---
+# ----------------------------
+# Service NodePort pour Spring Boot
+# ----------------------------
 apiVersion: v1
 kind: Service
 metadata:
@@ -56,5 +69,5 @@ spec:
   type: NodePort
   ports:
     - port: 8089
-      targetPort: 8080
+      targetPort: 8089        # corrigé pour match containerPort
       nodePort: 30091
