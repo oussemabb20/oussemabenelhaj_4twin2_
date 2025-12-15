@@ -9,7 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/Enrollment")
-@CrossOrigin(origins = "*")
 @AllArgsConstructor
 public class EnrollmentController {
     IEnrollment enrollmentService;

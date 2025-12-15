@@ -9,7 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/students")
-@CrossOrigin(origins = "*")
 @AllArgsConstructor
 public class StudentController {
 IStudentService studentService;
