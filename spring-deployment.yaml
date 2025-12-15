@@ -13,8 +13,8 @@ metadata:
   namespace: devops
 type: Opaque
 data:
-  SPRING_DATASOURCE_USERNAME: cm9vdA==         # base64("root")
-  SPRING_DATASOURCE_PASSWORD: cm9vdDEyMw==     # base64("root123")
+  SPRING_DATASOURCE_USERNAME: cm9vdA==
+  SPRING_DATASOURCE_PASSWORD: cm9vdDEyMw==
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -23,6 +23,8 @@ metadata:
   namespace: devops
 spec:
   replicas: 1
+  strategy:
+    type: Recreate   # 🔥 VERY IMPORTANT (only 1 pod)
   selector:
     matchLabels:
       app: spring-app
@@ -31,18 +33,17 @@ spec:
       labels:
         app: spring-app
     spec:
-     containers:
-      - name: spring-app
-        image: oussemabh1/oussemabenelhaj_4twin2:build-68
-        imagePullPolicy: IfNotPresent
-        ports:
-          - containerPort: 8080
-        envFrom:
-          - configMapRef:
-              name: spring-config
-          - secretRef:
-              name: spring-secret
-
+      containers:
+        - name: spring-app
+          image: oussemabh1/oussemabenelhaj_4twin2:build-68
+          imagePullPolicy: Always   # 🔥 FIX ImagePullBackOff
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: spring-config
+            - secretRef:
+                name: spring-secret
 ---
 apiVersion: v1
 kind: Service
@@ -52,8 +53,8 @@ metadata:
 spec:
   selector:
     app: spring-app
+  type: NodePort
   ports:
     - port: 8089
-      targetPort: 8089
+      targetPort: 8080   # ✅ FIXED
       nodePort: 30091
-  type: NodePort
