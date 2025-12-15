@@ -24,7 +24,7 @@ metadata:
 spec:
   replicas: 1
   strategy:
-    type: Recreate   # 🔥 VERY IMPORTANT (only 1 pod)
+    type: Recreate
   selector:
     matchLabels:
       app: spring-app
@@ -35,8 +35,8 @@ spec:
     spec:
       containers:
         - name: spring-app
-          image: oussemabh1/oussemabenelhaj_4twin2:build-68
-          imagePullPolicy: Always   # 🔥 FIX ImagePullBackOff
+          image: oussemabh1/oussemabenelhaj_4twin2:build-65  # 🔥 CHANGED from build-68 to build-65
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           envFrom:
@@ -56,5 +56,5 @@ spec:
   type: NodePort
   ports:
     - port: 8089
-      targetPort: 8080   # ✅ FIXED
+      targetPort: 8080
       nodePort: 30091
