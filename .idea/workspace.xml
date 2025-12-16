@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c772797b-c3e8-4008-9c56-16ece6350bef" name="Changes" comment="" />
+    <list default="true" id="c772797b-c3e8-4008-9c56-16ece6350bef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/EnrollmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/EnrollmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/studentmanagement/controllers/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/StudentManagementApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/StudentManagementApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/EnrollmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/EnrollmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/controllers/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Enrollment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Enrollment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/entities/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/CourseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/CourseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/DepartmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/DepartmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/EnrollmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/EnrollmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/repositories/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/EnrollmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/EnrollmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/ICourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/ICourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/IDepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/IDepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/IEnrollment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/IEnrollment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/IStudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/studentmanagement/services/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-management-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-management-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/student-management-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/student-management-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/StudentManagementApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/StudentManagementApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/CourseControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/CourseControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/CourseIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/CourseIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/DepartmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/DepartmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/DepartmentIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/DepartmentIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/EnrollmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/EnrollmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/EnrollmentIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/EnrollmentIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/StudentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/StudentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/StudentIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/studentmanagement/integration/StudentIntegrationTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +261,7 @@
       <workItem from="1765788418768" duration="9341000" />
       <workItem from="1765826707362" duration="1228000" />
       <workItem from="1765830988458" duration="2000" />
+      <workItem from="1765843018961" duration="47000" />
     </task>
     <servers />
   </component>

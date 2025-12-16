@@ -10,6 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/Depatment")
 @AllArgsConstructor
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})
 public class DepartmentController {
     private IDepartmentService departmentService;
 

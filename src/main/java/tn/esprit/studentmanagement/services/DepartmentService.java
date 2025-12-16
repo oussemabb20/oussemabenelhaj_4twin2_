@@ -2,8 +2,11 @@ package tn.esprit.studentmanagement.services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tn.esprit.studentmanagement.entities.Department;
+import tn.esprit.studentmanagement.entities.Student;
 import tn.esprit.studentmanagement.repositories.DepartmentRepository;
+import tn.esprit.studentmanagement.repositories.StudentRepository;
 
 import java.util.List;
 
@@ -11,6 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class DepartmentService implements IDepartmentService {
     private final DepartmentRepository departmentRepository;
+    private final StudentRepository studentRepository;
 
     @Override
     public List<Department> getAllDepartments() {
@@ -28,7 +32,14 @@ public class DepartmentService implements IDepartmentService {
     }
 
     @Override
+    @Transactional
     public void deleteDepartment(Long idDepartment) {
-departmentRepository.deleteById(idDepartment);
+        // Unlink students from this department before deleting
+        List<Student> students = studentRepository.findByDepartmentIdDepartment(idDepartment);
+        for (Student student : students) {
+            student.setDepartment(null);
+            studentRepository.save(student);
+        }
+        departmentRepository.deleteById(idDepartment);
     }
 }
