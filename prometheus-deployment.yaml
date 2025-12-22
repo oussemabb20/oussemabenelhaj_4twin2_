@@ -16,6 +16,10 @@ data:
         metrics_path: '/student/actuator/prometheus'
         static_configs:
           - targets: ['spring-service:8089']
+      - job_name: 'jenkins'
+        metrics_path: '/prometheus'
+        static_configs:
+          - targets: ['192.168.56.10:8080']
 ---
 apiVersion: apps/v1
 kind: Deployment
